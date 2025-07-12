@@ -10,10 +10,19 @@ This is a real-time motion detection system using Python and OpenCV. It detects 
 - winsound (for sound alert on Windows)
 
 ## 📌 Features
-- Real-time webcam monitoring
-- Motion detection using frame differencing
-- Sound alert when motion is detected
-- Press `q` to close the camera safely
+- Real-time webcam feed
+- Motion detection using frame differencing and Gaussian blur
+- Contour detection to identify moving areas
+- Green rectangle drawn around moving objects
+- System beep alert (`winsound.Beep`) when motion is detected
+- Press `q` to cleanly exit and release the webcam
+  
+## 📁 Project Structure
+
+FaceMaskDetection/
+├── mask_detector.py # Main Python script
+├── Real_Time_Motion_Detection_Kirti_PPT.pptx # Presentation file for report
+├── README.md # (This file)
 
 ## ▶️ How to Run
 1. Install required libraries:
@@ -21,11 +30,27 @@ This is a real-time motion detection system using Python and OpenCV. It detects 
 
 2. Run the script:
    python mask_detector.py
+   
+3. Usage
+- Move in front of the camera → green box will appear
+
+- A beep sound will play when motion is detected
+
+- Press q to exit the app
 
 ## 🧠 Project Use
-Ideal for AI internships, smart surveillance prototypes, and basic computer vision demos.
+AI/ML internships
+
+Home surveillance prototype
+
+Smart classroom monitoring
+
+Motion-based alert systems
+
 
 ## 👩‍💻 Developed by
 **Kirti Kumari**
+
 Computer Science and Engineering Student (Pre-final Year)
+
 Sathyabama Institute of Science & Technology, Chennai
