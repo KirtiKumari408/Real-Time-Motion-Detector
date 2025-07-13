@@ -16,13 +16,6 @@ This is a real-time motion detection system using Python and OpenCV. It detects 
 - Green rectangle drawn around moving objects
 - System beep alert (`winsound.Beep`) when motion is detected
 - Press `q` to cleanly exit and release the webcam
-  
-## 📁 Project Structure
-
-FaceMaskDetection/
-├── mask_detector.py # Main Python script
-├── Real_Time_Motion_Detection_Kirti_PPT.pptx # Presentation file for report
-├── README.md # (This file)
 
 ## ▶️ How to Run
 1. Install required libraries:
